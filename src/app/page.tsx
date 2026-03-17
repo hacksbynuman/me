@@ -16,7 +16,7 @@ import styles from "@/components/about/about.module.scss";
 import React from "react";
 
 const CALENDAR_LINK = "https://calendly.com/hacksbynuman/30min";
-const PAGE_TITLE = "Numan Rajkotiya - Offensive Security Consultant";
+const PAGE_TITLE = "Numan Rajkotiya";
 const PAGE_DESCRIPTION =
   "Offensive security consultant specializing in identifying and exploiting real-world vulnerabilities.";
 
@@ -33,7 +33,7 @@ const heroLinks = [
   },
   {
     name: "Email",
-    icon: "mail",
+    icon: "email",
     link: "mailto:hacksbynmmcon@proton.me",
   },
 ];
@@ -344,7 +344,10 @@ export default function About() {
           {/* Group 2 — Bio */}
           <Column gap="8" marginBottom="l" style={{ maxWidth: "600px" }}>
             <Text variant="body-default-l">
-              I help organizations secure their full attack surface from external-facing applications and internal infrastructure to cloud environments and the human layer. Every engagement is scoped around your threat landscape and delivered with the depth your security posture actually requires.
+              I help organizations secure their full attack surface — from external-facing applications and internal infrastructure to cloud environments and the human layer.
+            </Text>
+            <Text variant="body-default-l">
+              Every engagement is scoped around your threat landscape and delivered with the depth your security posture actually requires.
             </Text>
           </Column>
 
@@ -608,7 +611,7 @@ export default function About() {
           />
           <Button
             href="mailto:hacksbynmmcon@proton.me"
-            prefixIcon="mail"
+            prefixIcon="email"
             label="Send an Email"
             size="l"
             variant="secondary"
